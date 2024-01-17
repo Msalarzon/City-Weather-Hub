@@ -1,0 +1,60 @@
+/* Global styling */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header styling */
+.weather-header {
+    margin-bottom: 20px;
+}
+
+/* Form and search styling */
+.form {
+    margin-bottom: 20px;
+    text-align: center; 
+}
+
+.weather-search {
+    width: 30%;
+}
+
+.search-button {
+    width: 20%;
+    margin-top: 10px;
+}
+
+
+/* Current Weather and 5-Day Forecast styling */
+#today,
+#forecast {
+    background-color: #f5f5f5;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Weather boxes styling */
+#current-weather,
+#forecast-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        flex-basis: calc(30% - 20px); 
+        padding: 15px;
+        margin-bottom: 20px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        text-align: left;
+      }
+
+
+.weather-box {
+    flex-basis: calc(19% - 20px);
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
